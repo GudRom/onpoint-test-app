@@ -1,0 +1,46 @@
+.carousel {
+  max-width: 1024px;
+  max-height: 768px;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel__wrapper {
+    transition: transform 0.5s linear;
+    height: 100%;
+    position: relative;
+    display: flex;
+}
+
+.carousel__home-btn {
+  padding: 0;
+  background-image: url(../../images/global.svg);
+  background-color: transparent;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  width: 153px;
+  height: 25px;
+  z-index: 1;
+  position: absolute;
+  left: 61px;
+  top: 26px;
+}
+
+.carousel__line {
+  border-right: 1px black solid;
+  height: 100%;
+  z-index: 2;
+  position: relative;
+  left: -100px;
+}
+
+.carousel__logo {
+  position: absolute;
+  height: 12px;
+  width: 57px;
+  left: 61px;
+  bottom: 13px;
+}

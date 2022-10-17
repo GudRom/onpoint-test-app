@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "DinPRO";
+  src: url(./dinpro/DINPro.ttf) format("ttf"), url(./dinpro/DINPro.woff) format("woff"),
+    url(./dinpro/DINPro.woff2) format("woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(./gilroy/GilroyLight.woff2) format("woff2"),
+    url(./gilroy/GilroyLight.woff) format("woff"), url(./gilroy/GilroyLight.ttf) format("ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(./gilroy/GilroyRegular.woff2) format("woff2"),
+    url(./gilroy/GilroyRegular.woff) format("woff"),
+    url(./gilroy/GilroyRegular.ttf) format("ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(./gilroy/GilroyExtrabold.woff2) format("woff2"),
+    url(./gilroy/GilroyExtrabold.woff) format("woff"),
+    url(./gilroy/GilroyExtrabold.ttf) format("ttf");
+  font-weight: 800;
+}

@@ -1,0 +1,132 @@
+.popup {
+  visibility: hidden;
+  background-color: rgba(22, 39, 62, 0.7);
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  transition: opacity .3s linear;
+}
+
+.popup_visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup__box {
+  border-radius: 40px;
+  background-color: white;
+  position: absolute;
+  left: 140px;
+  top: 124px;
+  width: 823px;
+  height: 573px;
+  z-index: 3;
+  opacity: 1;
+  padding: 211px 138px 0 211px;
+  box-sizing: border-box;
+}
+
+.popup__close-btn {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../../images/btn-close.png);
+  width: 34px;
+  height: 35px;
+  position: absolute;
+  top: 32px;
+  right: 32px;
+}
+
+.popup__list-box {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.popup__list-wrapper {
+  display: flex;
+  width: 474px;
+}
+
+.popup__list-part {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  min-width: 100%;
+}
+
+.popup__list-item {
+  list-style: none;
+}
+
+.popup__number {
+  font-family: "Gilroy";
+  color: rgb(140, 201, 232);
+  font-weight: 800;
+  margin: 0;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.popup__text {
+  color: rgb(46, 46, 46);
+  margin: 13px 0 19px;
+  font-size: 23px;
+  line-height: 1.2;
+}
+
+.popup__switch-box {
+  display: flex;
+  margin-top: 35px;
+}
+
+.popup__switch-btn {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../../images/btn-arrow.png);
+  width: 10px;
+  height: 15px;
+}
+
+.popup__switch-btn_rotate {
+  transform: rotate(180deg);
+}
+
+.popup__page-circle-box {
+  display: flex;
+  margin: 0 19px;
+  padding: 0;
+  list-style: none;
+  align-items: center;
+}
+
+.popup__page-circle {
+  border: 2px solid black;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+
+.popup__page-circle:last-child {
+  margin-right: 0;
+}
+
+.popup__page-circle_pink {
+  border-color: rgb(252, 109, 169);
+  background-color: rgb(252, 109, 169);
+}

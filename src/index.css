@@ -1,0 +1,12 @@
+@import url(./fonts/fonts.css);
+
+:root {
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'DinPRO', Arial, Helvetica, sans-serif;
+  color: rgb(36, 36, 36);
+}
