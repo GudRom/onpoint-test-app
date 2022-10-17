@@ -52,7 +52,6 @@ function App() {
       >
         <CarouselPage>
           <FirstPage
-            activeIndex={activeIndex}
             setActiveIndex={setActiveIndex}
           />
         </CarouselPage>
@@ -63,8 +62,6 @@ function App() {
         </CarouselPage>
         <CarouselPage>
           <ThirdPage
-            activeIndex={activeIndex}
-            setActiveIndex={setActiveIndex}
           />
         </CarouselPage>
       </Carousel>
